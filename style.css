@@ -1,0 +1,77 @@
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    padding: 0 30px 0 30px;
+    line-height: 30px;
+    display: inline-block; /* jag har ingen aning varför detta funkar fast det funkar */
+}
+
+nav li:hover {
+    background-color: #6a6a6a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #4a4141;
+}
+
+html, body {
+    margin: 0;
+}
+
+#home-main {
+    display: grid;
+    grid-template-areas: "text form";
+}
+
+#main-content {
+    grid-area: text;
+}
+
+#main-content img {
+    width: 50vw;
+}
+
+#form {
+    grid-area: form;
+    margin: 20px;
+}
+
+#produkter-main tbody img {
+    height: 200px;
+}
+
+#produkter-main td, #produkter-main th {
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 0;
+}
+
+#produkter-main table {
+    border-spacing: 0;
+    margin: 10px;
+}
+
+#produkter-main thead {
+    background-color: #4a4141;
+}
+
+#produkter-main tbody tr:nth-of-type(even) {
+    background-color: #b2b2b2;
+}
+
+#produkter-main h1 {
+    margin: 10px;
+}
+
+#om-oss-main * {
+    margin: 10px;
+}
